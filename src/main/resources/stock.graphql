@@ -1,0 +1,17 @@
+schema{
+query:Query
+}
+type Query{
+allStocks: [Stock]
+stock(id: Int): Stock
+}
+
+type Stock{
+	id: Int
+	name: String
+	open: Int
+	high: Int
+	low: Int
+	ltp: Int
+	close: Int
+}
