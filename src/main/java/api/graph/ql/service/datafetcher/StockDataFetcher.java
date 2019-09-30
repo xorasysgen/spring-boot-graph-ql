@@ -5,6 +5,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import api.graph.ql.annotation.ExecutionTimeDetector;
 import api.graph.ql.model.Stock;
 import api.graph.ql.repository.StockRepository;
 import graphql.schema.DataFetcher;
@@ -17,9 +18,9 @@ public class StockDataFetcher implements DataFetcher<Stock> {
 	private StockRepository stockRepository;
 	
 	@Override
+	@ExecutionTimeDetector
 	public Stock get(DataFetchingEnvironment environment) {
 		Integer id=environment.getArgument("id");
-		System.out.println("Id :#########" + id);
 			Optional<Stock> optional= stockRepository.findById(id);
 			System.out.println("optional.get()" + optional.get());
 			return optional.get();

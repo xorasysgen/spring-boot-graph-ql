@@ -60,7 +60,8 @@ public class GraphQLService {
                         .dataFetcher("stock", stockDataFetcher))
                 .build();
 	}
-
+    
+    
 	private void insertStocksIntoDataBase() {
 
         Stream.of(new Stock(1,"HdfcBank",1200,1250,1195,1247,1245),
