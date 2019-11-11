@@ -30,11 +30,18 @@
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 
+
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-envers</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
 
 
 		<dependency>
@@ -71,6 +78,13 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+
+
+		<dependency>
+			<groupId>net.bull.javamelody</groupId>
+			<artifactId>javamelody-spring-boot-starter</artifactId>
+			<version>1.80.0</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->

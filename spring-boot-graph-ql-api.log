@@ -1,24 +1,30 @@
-"2019-09-27 11:07:25 [restartedMain] INFO  a.g.ql.SpringBootGraphQlApplication - Starting SpringBootGraphQlApplication on OptimusPrime with PID 7260 (started by Sushil K Bhaskar in E:\Development EDI\Reactive_Workspace\spring-boot-graph-ql)
-""2019-09-27 11:07:25 [restartedMain] DEBUG a.g.ql.SpringBootGraphQlApplication - Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
-""2019-09-27 11:07:25 [restartedMain] INFO  a.g.ql.SpringBootGraphQlApplication - The following profiles are active: production
-""2019-09-27 11:07:25 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-""2019-09-27 11:07:25 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 1 repository interfaces.
-""2019-09-27 11:07:25 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5602854e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-""2019-09-27 11:07:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-""2019-09-27 11:07:25 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2019-09-27 11:07:25 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]
-""2019-09-27 11:07:25 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2019-09-27 11:07:25 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
-""2019-09-27 11:07:25 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
-""2019-09-27 11:07:26 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+"2019-11-11 13:16:22 [restartedMain] INFO  a.g.ql.SpringBootGraphQlApplication - Starting SpringBootGraphQlApplication on OptimusPrime with PID 12368 (started by Sushil K Bhaskar in E:\Development EDI\Reactive_Workspace\spring-boot-graph-ql)
+""2019-11-11 13:16:22 [restartedMain] DEBUG a.g.ql.SpringBootGraphQlApplication - Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+""2019-11-11 13:16:22 [restartedMain] INFO  a.g.ql.SpringBootGraphQlApplication - The following profiles are active: production
+""2019-11-11 13:16:22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2019-11-11 13:16:22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2019-11-11 13:16:23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-11-11 13:16:23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 92ms. Found 1 repository interfaces.
+""2019-11-11 13:16:24 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c75c013a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-11-11 13:16:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2019-11-11 13:16:25 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2019-11-11 13:16:25 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]
+""2019-11-11 13:16:25 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2019-11-11 13:16:25 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2019-11-11 13:16:26 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2019-11-11 13:16:26 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-""2019-09-27 11:07:26 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
-""2019-09-27 11:07:26 [restartedMain] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000422: Disabling contextual LOB creation as connection was null
-""2019-09-27 11:07:26 [restartedMain] INFO  org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@ceb8c6b
-""2019-09-27 11:07:26 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2019-09-27 11:07:26 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-""2019-09-27 11:07:26 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+""2019-11-11 13:16:26 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.11.Final}
+""2019-11-11 13:16:26 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2019-11-11 13:16:26 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+""2019-11-11 13:16:27 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""2019-11-11 13:16:27 [restartedMain] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000422: Disabling contextual LOB creation as connection was null
+""2019-11-11 13:16:27 [restartedMain] INFO  org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5e501b1e
+""2019-11-11 13:16:27 [restartedMain] INFO  o.h.e.b.internal.EnversServiceImpl - Envers integration enabled? : true
+""2019-11-11 13:16:33 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-11-11 13:16:33 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2019-11-11 13:16:34 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -30,7 +36,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-""2019-09-27 11:07:26 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+""2019-11-11 13:16:34 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -42,7 +48,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-""2019-09-27 11:07:26 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+""2019-11-11 13:16:35 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -54,198 +60,194 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-""2019-09-27 11:07:26 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy149 ] class invoked 
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":1,"name":"HdfcBank","open":1200,"high":1250,"low":1195,"close":1247,"ltp":1245}] ] arguments
-""2019-09-27 11:07:26 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
-    51500 nanoseconds spent acquiring 1 JDBC connections;
+""2019-11-11 13:16:35 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    69200 nanoseconds spent preparing 1 JDBC statements;
-    7668600 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
-    141300 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy149 ] class invoked 
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":1,"name":"HdfcBank","open":1200,"high":1250,"low":1195,"close":1247,"ltp":1245}
-""2019-09-27 11:07:26 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy149 ] class invoked 
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":2,"name":"Sbin","open":200,"high":250,"low":195,"close":147,"ltp":245}] ] arguments
-""2019-09-27 11:07:26 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
-    15900 nanoseconds spent acquiring 1 JDBC connections;
+""2019-11-11 13:16:35 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy124 ] class invoked 
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":1,"name":"HdfcBank","open":1200,"high":1250,"low":1195,"close":1247,"ltp":1245}] ] arguments
+""2019-11-11 13:16:36 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    1670100 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    3015500 nanoseconds spent preparing 1 JDBC statements;
+    63132600 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    5530100 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy124 ] class invoked 
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":1,"name":"HdfcBank","open":1200,"high":1250,"low":1195,"close":1247,"ltp":1245}
+""2019-11-11 13:16:36 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy124 ] class invoked 
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":2,"name":"Sbin","open":200,"high":250,"low":195,"close":147,"ltp":245}] ] arguments
+""2019-11-11 13:16:36 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    16500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    23600 nanoseconds spent preparing 1 JDBC statements;
+    1421800 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    222400 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy124 ] class invoked 
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":2,"name":"Sbin","open":200,"high":250,"low":195,"close":147,"ltp":245}
+""2019-11-11 13:16:36 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy124 ] class invoked 
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":3,"name":"Hdfc","open":1100,"high":1150,"low":1195,"close":1147,"ltp":1145}] ] arguments
+""2019-11-11 13:16:36 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    19500 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     32600 nanoseconds spent preparing 1 JDBC statements;
-    1597600 nanoseconds spent executing 1 JDBC statements;
+    1699900 nanoseconds spent executing 1 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
-    305100 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    141900 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy149 ] class invoked 
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":2,"name":"Sbin","open":200,"high":250,"low":195,"close":147,"ltp":245}
-""2019-09-27 11:07:26 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy149 ] class invoked 
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":3,"name":"Hdfc","open":1100,"high":1150,"low":1195,"close":1147,"ltp":1145}] ] arguments
-""2019-09-27 11:07:26 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
-    17600 nanoseconds spent acquiring 1 JDBC connections;
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy124 ] class invoked 
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":3,"name":"Hdfc","open":1100,"high":1150,"low":1195,"close":1147,"ltp":1145}
+""2019-11-11 13:16:36 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy124 ] class invoked 
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":4,"name":"Nifty","open":11590,"high":11655,"low":11539,"close":11588,"ltp":11580}] ] arguments
+""2019-11-11 13:16:36 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    24800 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    26600 nanoseconds spent preparing 1 JDBC statements;
-    7999000 nanoseconds spent executing 1 JDBC statements;
+    31700 nanoseconds spent preparing 1 JDBC statements;
+    1486900 nanoseconds spent executing 1 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
-    202700 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    98300 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy149 ] class invoked 
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":3,"name":"Hdfc","open":1100,"high":1150,"low":1195,"close":1147,"ltp":1145}
-""2019-09-27 11:07:26 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy149 ] class invoked 
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":4,"name":"Nifty","open":11590,"high":11655,"low":11539,"close":11588,"ltp":11580}] ] arguments
-""2019-09-27 11:07:26 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
-    37900 nanoseconds spent acquiring 1 JDBC connections;
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy124 ] class invoked 
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":4,"name":"Nifty","open":11590,"high":11655,"low":11539,"close":11588,"ltp":11580}
+""2019-11-11 13:16:36 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy124 ] class invoked 
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":5,"name":"Itc","open":255,"high":256,"low":260,"close":245,"ltp":254}] ] arguments
+""2019-11-11 13:16:36 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    16300 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    67500 nanoseconds spent preparing 1 JDBC statements;
-    2826800 nanoseconds spent executing 1 JDBC statements;
+    43200 nanoseconds spent preparing 1 JDBC statements;
+    1452100 nanoseconds spent executing 1 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
-    120000 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    141400 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy149 ] class invoked 
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":4,"name":"Nifty","open":11590,"high":11655,"low":11539,"close":11588,"ltp":11580}
-""2019-09-27 11:07:26 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy149 ] class invoked 
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":5,"name":"Itc","open":255,"high":256,"low":260,"close":245,"ltp":254}] ] arguments
-""2019-09-27 11:07:26 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy124 ] class invoked 
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":5,"name":"Itc","open":255,"high":256,"low":260,"close":245,"ltp":254}
+""2019-11-11 13:16:36 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy124 ] class invoked 
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":6,"name":"Lt","open":1540,"high":1550,"low":1595,"close":1547,"ltp":1540}] ] arguments
+""2019-11-11 13:16:36 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
     17100 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    23900 nanoseconds spent preparing 1 JDBC statements;
-    1305200 nanoseconds spent executing 1 JDBC statements;
+    50600 nanoseconds spent preparing 1 JDBC statements;
+    1246300 nanoseconds spent executing 1 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
-    166500 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    188700 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy149 ] class invoked 
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":5,"name":"Itc","open":255,"high":256,"low":260,"close":245,"ltp":254}
-""2019-09-27 11:07:26 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy149 ] class invoked 
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":6,"name":"Lt","open":1540,"high":1550,"low":1595,"close":1547,"ltp":1540}] ] arguments
-""2019-09-27 11:07:26 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
-    16100 nanoseconds spent acquiring 1 JDBC connections;
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy124 ] class invoked 
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":6,"name":"Lt","open":1540,"high":1550,"low":1595,"close":1547,"ltp":1540}
+""2019-11-11 13:16:36 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy124 ] class invoked 
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":7,"name":"ioc","open":140,"high":139,"low":142,"close":144,"ltp":145}] ] arguments
+""2019-11-11 13:16:36 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    100400 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    26800 nanoseconds spent preparing 1 JDBC statements;
-    2711900 nanoseconds spent executing 1 JDBC statements;
+    27700 nanoseconds spent preparing 1 JDBC statements;
+    1973600 nanoseconds spent executing 1 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
-    88700 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    127700 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy149 ] class invoked 
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":6,"name":"Lt","open":1540,"high":1550,"low":1595,"close":1547,"ltp":1540}
-""2019-09-27 11:07:26 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy149 ] class invoked 
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":7,"name":"ioc","open":140,"high":139,"low":142,"close":144,"ltp":145}] ] arguments
-""2019-09-27 11:07:26 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
-    15400 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    20000 nanoseconds spent preparing 1 JDBC statements;
-    1016600 nanoseconds spent executing 1 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    79600 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy149 ] class invoked 
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:07:26 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":7,"name":"ioc","open":140,"high":139,"low":142,"close":144,"ltp":145}
-""2019-09-27 11:07:26 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-""2019-09-27 11:07:26 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2019-09-27 11:07:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-""2019-09-27 11:07:26 [restartedMain] INFO  a.g.ql.SpringBootGraphQlApplication - Started SpringBootGraphQlApplication in 1.48 seconds (JVM running for 1101.591)
-""2019-09-27 11:07:26 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-""2019-09-27 11:07:50 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2019-09-27 11:07:50 [http-nio-8080-exec-2] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
-""2019-09-27 11:07:50 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
-""2019-09-27 11:07:50 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
-""2019-09-27 11:07:50 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice -  [["{\n\tallStocks {\n\t\tid\n\t\tname\n\t}\n}"] ] arguments
-""2019-09-27 11:07:50 [http-nio-8080-exec-2] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
-""2019-09-27 11:07:50 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
-""2019-09-27 11:07:50 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
-""2019-09-27 11:07:50 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice -  [[] ] arguments
-""2019-09-27 11:07:50 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
-""2019-09-27 11:07:50 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
-""2019-09-27 11:07:50 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice - Response#{}
-""2019-09-27 11:07:50 [http-nio-8080-exec-2] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
-""2019-09-27 11:07:50 [http-nio-8080-exec-2] INFO  a.graph.ql.logging.ExecutionTracker - Method get of class api.graph.ql.service.datafetcher.AllStockDataFetcher taken taken : [19] ms
-""2019-09-27 11:07:50 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
-""2019-09-27 11:07:50 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
-""2019-09-27 11:07:50 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice - Response#{"headers":{},"body":{"errors":[],"data":{"allStocks":[{"id":1,"name":"HdfcBank"},{"id":2,"name":"Sbin"},{"id":3,"name":"Hdfc"},{"id":4,"name":"Nifty"},{"id":5,"name":"Itc"},{"id":6,"name":"Lt"},{"id":7,"name":"ioc"}]},"extensions":null},"statusCode":"OK","statusCodeValue":200}
-""2019-09-27 11:07:50 [http-nio-8080-exec-2] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
-    2884800 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    179200 nanoseconds spent preparing 1 JDBC statements;
-    5497700 nanoseconds spent executing 1 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
-    4600 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-""2019-09-27 11:09:56 [Thread-46] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-""2019-09-27 11:09:56 [Thread-46] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2019-09-27 11:09:56 [Thread-46] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
-""2019-09-27 11:09:56 [Thread-46] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
-""2019-09-27 11:09:56 [restartedMain] INFO  a.g.ql.SpringBootGraphQlApplication - Starting SpringBootGraphQlApplication on OptimusPrime with PID 7260 (started by Sushil K Bhaskar in E:\Development EDI\Reactive_Workspace\spring-boot-graph-ql)
-""2019-09-27 11:09:56 [restartedMain] DEBUG a.g.ql.SpringBootGraphQlApplication - Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
-""2019-09-27 11:09:56 [restartedMain] INFO  a.g.ql.SpringBootGraphQlApplication - The following profiles are active: production
-""2019-09-27 11:09:56 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-""2019-09-27 11:09:56 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 1 repository interfaces.
-""2019-09-27 11:09:56 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5602854e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-""2019-09-27 11:09:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-""2019-09-27 11:09:57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2019-09-27 11:09:57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]
-""2019-09-27 11:09:57 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2019-09-27 11:09:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
-""2019-09-27 11:09:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
-""2019-09-27 11:09:57 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy124 ] class invoked 
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 13:16:36 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":7,"name":"ioc","open":140,"high":139,"low":142,"close":144,"ltp":145}
+""2019-11-11 13:16:37 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2019-11-11 13:16:37 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2019-11-11 13:16:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2019-11-11 13:16:37 [restartedMain] INFO  a.g.ql.SpringBootGraphQlApplication - Started SpringBootGraphQlApplication in 15.965 seconds (JVM running for 17.925)
+""2019-11-11 13:19:50 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2019-11-11 13:19:50 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2019-11-11 13:19:50 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2019-11-11 13:19:51 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2019-11-11 13:19:51 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2019-11-11 14:56:53 [restartedMain] INFO  a.g.ql.SpringBootGraphQlApplication - Starting SpringBootGraphQlApplication on OptimusPrime with PID 4924 (started by Sushil K Bhaskar in E:\Development EDI\Reactive_Workspace\spring-boot-graph-ql)
+""2019-11-11 14:56:53 [restartedMain] DEBUG a.g.ql.SpringBootGraphQlApplication - Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+""2019-11-11 14:56:53 [restartedMain] INFO  a.g.ql.SpringBootGraphQlApplication - The following profiles are active: production
+""2019-11-11 14:56:53 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2019-11-11 14:56:53 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2019-11-11 14:56:55 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-11-11 14:56:55 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 86ms. Found 1 repository interfaces.
+""2019-11-11 14:56:56 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'net.bull.javamelody.JavaMelodyAutoConfiguration' of type [net.bull.javamelody.JavaMelodyAutoConfiguration$$EnhancerBySpringCGLIB$$dd3ae90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-11-11 14:56:56 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'monitoringSpringAdvisor' of type [net.bull.javamelody.MonitoringSpringAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-11-11 14:56:56 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'monitoringSpringServiceAdvisor' of type [net.bull.javamelody.MonitoringSpringAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-11-11 14:56:56 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'monitoringSpringControllerAdvisor' of type [net.bull.javamelody.MonitoringSpringAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-11-11 14:56:56 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'monitoringSpringRestControllerAdvisor' of type [net.bull.javamelody.MonitoringSpringAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-11-11 14:56:56 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'monitoringSpringAsyncAdvisor' of type [net.bull.javamelody.MonitoringSpringAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-11-11 14:56:56 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'monitoringSpringScheduledAdvisor' of type [net.bull.javamelody.MonitoringSpringAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-11-11 14:56:56 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b839a5e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-11-11 14:56:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2019-11-11 14:56:57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2019-11-11 14:56:57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.24]
+""2019-11-11 14:56:57 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2019-11-11 14:57:17 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2019-11-11 14:57:18 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2019-11-11 14:57:18 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-""2019-09-27 11:09:57 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
-""2019-09-27 11:09:57 [restartedMain] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000422: Disabling contextual LOB creation as connection was null
-""2019-09-27 11:09:57 [restartedMain] INFO  org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@ceb8c6b
-""2019-09-27 11:09:57 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2019-09-27 11:09:57 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-""2019-09-27 11:09:57 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+""2019-11-11 14:57:18 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.11.Final}
+""2019-11-11 14:57:18 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2019-11-11 14:57:18 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+""2019-11-11 14:57:18 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""2019-11-11 14:57:18 [restartedMain] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000422: Disabling contextual LOB creation as connection was null
+""2019-11-11 14:57:18 [restartedMain] INFO  org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@797fa70a
+""2019-11-11 14:57:18 [restartedMain] INFO  o.h.e.b.internal.EnversServiceImpl - Envers integration enabled? : true
+""2019-11-11 14:57:20 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-11-11 14:57:20 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2019-11-11 14:57:21 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -257,7 +259,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-""2019-09-27 11:09:57 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+""2019-11-11 14:57:21 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -269,7 +271,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-""2019-09-27 11:09:57 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+""2019-11-11 14:57:21 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -281,146 +283,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-""2019-09-27 11:09:57 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy155 ] class invoked 
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":1,"name":"HdfcBank","open":1200,"high":1250,"low":1195,"close":1247,"ltp":1245}] ] arguments
-""2019-09-27 11:09:57 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
-    14800 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    42000 nanoseconds spent preparing 1 JDBC statements;
-    5735400 nanoseconds spent executing 1 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    109000 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy155 ] class invoked 
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":1,"name":"HdfcBank","open":1200,"high":1250,"low":1195,"close":1247,"ltp":1245}
-""2019-09-27 11:09:57 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy155 ] class invoked 
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":2,"name":"Sbin","open":200,"high":250,"low":195,"close":147,"ltp":245}] ] arguments
-""2019-09-27 11:09:57 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
-    28500 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    51200 nanoseconds spent preparing 1 JDBC statements;
-    2017900 nanoseconds spent executing 1 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    103100 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy155 ] class invoked 
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":2,"name":"Sbin","open":200,"high":250,"low":195,"close":147,"ltp":245}
-""2019-09-27 11:09:57 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy155 ] class invoked 
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":3,"name":"Hdfc","open":1100,"high":1150,"low":1195,"close":1147,"ltp":1145}] ] arguments
-""2019-09-27 11:09:57 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
-    17400 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    27400 nanoseconds spent preparing 1 JDBC statements;
-    1486000 nanoseconds spent executing 1 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    103400 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy155 ] class invoked 
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":3,"name":"Hdfc","open":1100,"high":1150,"low":1195,"close":1147,"ltp":1145}
-""2019-09-27 11:09:57 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy155 ] class invoked 
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":4,"name":"Nifty","open":11590,"high":11655,"low":11539,"close":11588,"ltp":11580}] ] arguments
-""2019-09-27 11:09:57 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
-    16700 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    27300 nanoseconds spent preparing 1 JDBC statements;
-    1446900 nanoseconds spent executing 1 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    93200 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy155 ] class invoked 
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":4,"name":"Nifty","open":11590,"high":11655,"low":11539,"close":11588,"ltp":11580}
-""2019-09-27 11:09:57 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy155 ] class invoked 
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":5,"name":"Itc","open":255,"high":256,"low":260,"close":245,"ltp":254}] ] arguments
-""2019-09-27 11:09:57 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
-    18600 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    26800 nanoseconds spent preparing 1 JDBC statements;
-    1324500 nanoseconds spent executing 1 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    87000 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy155 ] class invoked 
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":5,"name":"Itc","open":255,"high":256,"low":260,"close":245,"ltp":254}
-""2019-09-27 11:09:57 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy155 ] class invoked 
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":6,"name":"Lt","open":1540,"high":1550,"low":1595,"close":1547,"ltp":1540}] ] arguments
-""2019-09-27 11:09:57 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
-    15300 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    24700 nanoseconds spent preparing 1 JDBC statements;
-    1020800 nanoseconds spent executing 1 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    126900 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy155 ] class invoked 
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":6,"name":"Lt","open":1540,"high":1550,"low":1595,"close":1547,"ltp":1540}
-""2019-09-27 11:09:57 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy155 ] class invoked 
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":7,"name":"ioc","open":140,"high":139,"low":142,"close":144,"ltp":145}] ] arguments
-""2019-09-27 11:09:57 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
-    13200 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    18800 nanoseconds spent preparing 1 JDBC statements;
-    1026000 nanoseconds spent executing 1 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
-    0 nanoseconds spent performing 0 L2C puts;
-    0 nanoseconds spent performing 0 L2C hits;
-    0 nanoseconds spent performing 0 L2C misses;
-    112800 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
-    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
-}
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy155 ] class invoked 
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
-""2019-09-27 11:09:57 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":7,"name":"ioc","open":140,"high":139,"low":142,"close":144,"ltp":145}
-""2019-09-27 11:09:57 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-""2019-09-27 11:09:57 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2019-09-27 11:09:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-""2019-09-27 11:09:57 [restartedMain] INFO  a.g.ql.SpringBootGraphQlApplication - Started SpringBootGraphQlApplication in 1.382 seconds (JVM running for 1252.785)
-""2019-09-27 11:09:57 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-""2019-09-27 11:20:05 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2019-09-27 11:20:05 [http-nio-8080-exec-1] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+""2019-11-11 14:57:21 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -432,11 +295,199 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-""2019-09-27 11:20:05 [http-nio-8080-exec-1] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
-    0 nanoseconds spent acquiring 0 JDBC connections;
+""2019-11-11 14:57:21 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":1,"name":"HdfcBank","open":1200,"high":1250,"low":1195,"close":1247,"ltp":1245}] ] arguments
+""2019-11-11 14:57:25 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    2408300 nanoseconds spent acquiring 1 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
-    0 nanoseconds spent preparing 0 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC statements;
+    5660300 nanoseconds spent preparing 1 JDBC statements;
+    12507500 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    3796300 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":1,"name":"HdfcBank","open":1200,"high":1250,"low":1195,"close":1247,"ltp":1245}
+""2019-11-11 14:57:25 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":2,"name":"Sbin","open":200,"high":250,"low":195,"close":147,"ltp":245}] ] arguments
+""2019-11-11 14:57:25 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    252400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    35000 nanoseconds spent preparing 1 JDBC statements;
+    1995600 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    192600 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":2,"name":"Sbin","open":200,"high":250,"low":195,"close":147,"ltp":245}
+""2019-11-11 14:57:25 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":3,"name":"Hdfc","open":1100,"high":1150,"low":1195,"close":1147,"ltp":1145}] ] arguments
+""2019-11-11 14:57:25 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    279500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    52000 nanoseconds spent preparing 1 JDBC statements;
+    3313900 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    188800 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":3,"name":"Hdfc","open":1100,"high":1150,"low":1195,"close":1147,"ltp":1145}
+""2019-11-11 14:57:25 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":4,"name":"Nifty","open":11590,"high":11655,"low":11539,"close":11588,"ltp":11580}] ] arguments
+""2019-11-11 14:57:25 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    345300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    46900 nanoseconds spent preparing 1 JDBC statements;
+    1678700 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    105700 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":4,"name":"Nifty","open":11590,"high":11655,"low":11539,"close":11588,"ltp":11580}
+""2019-11-11 14:57:25 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":5,"name":"Itc","open":255,"high":256,"low":260,"close":245,"ltp":254}] ] arguments
+""2019-11-11 14:57:25 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    276000 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    54800 nanoseconds spent preparing 1 JDBC statements;
+    1583000 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    450100 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":5,"name":"Itc","open":255,"high":256,"low":260,"close":245,"ltp":254}
+""2019-11-11 14:57:25 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":6,"name":"Lt","open":1540,"high":1550,"low":1595,"close":1547,"ltp":1540}] ] arguments
+""2019-11-11 14:57:25 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    258200 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    58800 nanoseconds spent preparing 1 JDBC statements;
+    1236300 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    123900 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":6,"name":"Lt","open":1540,"high":1550,"low":1595,"close":1547,"ltp":1540}
+""2019-11-11 14:57:25 [restartedMain] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [[{"id":7,"name":"ioc","open":140,"high":139,"low":142,"close":144,"ltp":145}] ] arguments
+""2019-11-11 14:57:25 [restartedMain] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    263300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    34100 nanoseconds spent preparing 1 JDBC statements;
+    1338500 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    122300 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice -  [save ] method invoked
+""2019-11-11 14:57:25 [restartedMain] INFO  api.graph.ql.logging.LogAdvice - Response#{"id":7,"name":"ioc","open":140,"high":139,"low":142,"close":144,"ltp":145}
+""2019-11-11 14:57:27 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2019-11-11 14:57:27 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2019-11-11 14:57:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2019-11-11 14:57:27 [restartedMain] INFO  a.g.ql.SpringBootGraphQlApplication - Started SpringBootGraphQlApplication in 34.487 seconds (JVM running for 35.9)
+""2019-11-11 14:57:51 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2019-11-11 14:58:44 [http-nio-8080-exec-9] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 14:58:44 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 14:58:44 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 14:58:44 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [["{\n\tallStocks {\n\t\tid\n\t\tname\n\t}\n}"] ] arguments
+""2019-11-11 14:58:44 [http-nio-8080-exec-9] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 14:58:44 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 14:58:44 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 14:58:44 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [[] ] arguments
+""2019-11-11 14:58:44 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 14:58:44 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 14:58:44 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice - Response#{}
+""2019-11-11 14:58:44 [http-nio-8080-exec-9] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2019-11-11 14:58:44 [http-nio-8080-exec-9] INFO  a.graph.ql.logging.ExecutionTracker - Method get of class api.graph.ql.service.datafetcher.AllStockDataFetcher taken taken : [177] ms
+""2019-11-11 14:58:44 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 14:58:44 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 14:58:44 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice - Response#{"headers":{},"body":{"errors":[],"data":{"allStocks":[{"id":1,"name":"HdfcBank"},{"id":2,"name":"Sbin"},{"id":3,"name":"Hdfc"},{"id":4,"name":"Nifty"},{"id":5,"name":"Itc"},{"id":6,"name":"Lt"},{"id":7,"name":"ioc"}]},"extensions":null},"statusCode":"OK","statusCodeValue":200}
+""2019-11-11 14:58:44 [http-nio-8080-exec-9] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    2243400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    310200 nanoseconds spent preparing 1 JDBC statements;
+    1720500 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    18800 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [["{\n\tstock(id: 1){\n\tname\n\topen\n\t}\n}"] ] arguments
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [[] ] arguments
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice - Response#{}
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [findById ] method invoked
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [[1] ] arguments
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [findById ] method invoked
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice - Response#{"present":true}
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] INFO  a.graph.ql.logging.ExecutionTracker - Method get of class api.graph.ql.service.datafetcher.StockDataFetcher taken taken : [26] ms
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice - Response#{"headers":{},"body":{"errors":[],"data":{"stock":{"name":"HdfcBank","open":1200}},"extensions":null},"statusCode":"OK","statusCodeValue":200}
+""2019-11-11 15:00:26 [http-nio-8080-exec-6] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    2494300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    94500 nanoseconds spent preparing 1 JDBC statements;
+    1468900 nanoseconds spent executing 1 JDBC statements;
     0 nanoseconds spent executing 0 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
@@ -444,9 +495,370 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-""2019-09-27 14:45:02 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-""2019-09-27 14:45:03 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-""2019-09-27 14:45:03 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2019-09-27 14:45:03 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
-""2019-09-27 14:45:03 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [["{\n\tstock(id: 1){\n\tname\n\topen\n\t}\n}"] ] arguments
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [[] ] arguments
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice - Response#{}
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [findById ] method invoked
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [[1] ] arguments
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [findById ] method invoked
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice - Response#{"present":true}
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] INFO  a.graph.ql.logging.ExecutionTracker - Method get of class api.graph.ql.service.datafetcher.StockDataFetcher taken taken : [11] ms
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice - Response#{"headers":{},"body":{"errors":[],"data":{"stock":{"name":"HdfcBank","open":1200}},"extensions":null},"statusCode":"OK","statusCodeValue":200}
+""2019-11-11 15:00:27 [http-nio-8080-exec-8] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    1651300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    57000 nanoseconds spent preparing 1 JDBC statements;
+    1168000 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [["{\n\tstock(id: 1){\n\tname\n\topen\n\t}\n}"] ] arguments
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [[] ] arguments
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice - Response#{}
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [findById ] method invoked
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [[1] ] arguments
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [findById ] method invoked
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice - Response#{"present":true}
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] INFO  a.graph.ql.logging.ExecutionTracker - Method get of class api.graph.ql.service.datafetcher.StockDataFetcher taken taken : [17] ms
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice - Response#{"headers":{},"body":{"errors":[],"data":{"stock":{"name":"HdfcBank","open":1200}},"extensions":null},"statusCode":"OK","statusCodeValue":200}
+""2019-11-11 15:00:28 [http-nio-8080-exec-9] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    5825600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    60400 nanoseconds spent preparing 1 JDBC statements;
+    1754500 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] INFO  api.graph.ql.logging.LogAdvice -  [["{\n\tstock(id: 1){\n\tname\n\topen\n\t}\n}"] ] arguments
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] INFO  api.graph.ql.logging.LogAdvice -  [[] ] arguments
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] INFO  api.graph.ql.logging.LogAdvice - Response#{}
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] INFO  api.graph.ql.logging.LogAdvice -  [findById ] method invoked
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] INFO  api.graph.ql.logging.LogAdvice -  [[1] ] arguments
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] INFO  api.graph.ql.logging.LogAdvice -  [findById ] method invoked
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] INFO  api.graph.ql.logging.LogAdvice - Response#{"present":true}
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] INFO  a.graph.ql.logging.ExecutionTracker - Method get of class api.graph.ql.service.datafetcher.StockDataFetcher taken taken : [13] ms
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] INFO  api.graph.ql.logging.LogAdvice - Response#{"headers":{},"body":{"errors":[],"data":{"stock":{"name":"HdfcBank","open":1200}},"extensions":null},"statusCode":"OK","statusCodeValue":200}
+""2019-11-11 15:00:29 [http-nio-8080-exec-5] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    1963700 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    55100 nanoseconds spent preparing 1 JDBC statements;
+    1537200 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] INFO  api.graph.ql.logging.LogAdvice -  [["{\n\tstock(id: 1){\n\tname\n\topen\n\t}\n}"] ] arguments
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] INFO  api.graph.ql.logging.LogAdvice -  [[] ] arguments
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] INFO  api.graph.ql.logging.LogAdvice - Response#{}
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] INFO  api.graph.ql.logging.LogAdvice -  [findById ] method invoked
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] INFO  api.graph.ql.logging.LogAdvice -  [[1] ] arguments
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] INFO  api.graph.ql.logging.LogAdvice -  [findById ] method invoked
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] INFO  api.graph.ql.logging.LogAdvice - Response#{"present":true}
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] INFO  a.graph.ql.logging.ExecutionTracker - Method get of class api.graph.ql.service.datafetcher.StockDataFetcher taken taken : [25] ms
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] INFO  api.graph.ql.logging.LogAdvice - Response#{"headers":{},"body":{"errors":[],"data":{"stock":{"name":"HdfcBank","open":1200}},"extensions":null},"statusCode":"OK","statusCodeValue":200}
+""2019-11-11 15:00:29 [http-nio-8080-exec-3] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    5750300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    74200 nanoseconds spent preparing 1 JDBC statements;
+    2081300 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] INFO  api.graph.ql.logging.LogAdvice -  [["{\n\tstock(id: 1){\n\tname\n\topen\n\t}\n}"] ] arguments
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] INFO  api.graph.ql.logging.LogAdvice -  [[] ] arguments
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] INFO  api.graph.ql.logging.LogAdvice - Response#{}
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] INFO  api.graph.ql.logging.LogAdvice -  [findById ] method invoked
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] INFO  api.graph.ql.logging.LogAdvice -  [[1] ] arguments
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] INFO  api.graph.ql.logging.LogAdvice -  [findById ] method invoked
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] INFO  api.graph.ql.logging.LogAdvice - Response#{"present":true}
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] INFO  a.graph.ql.logging.ExecutionTracker - Method get of class api.graph.ql.service.datafetcher.StockDataFetcher taken taken : [13] ms
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] INFO  api.graph.ql.logging.LogAdvice - Response#{"headers":{},"body":{"errors":[],"data":{"stock":{"name":"HdfcBank","open":1200}},"extensions":null},"statusCode":"OK","statusCodeValue":200}
+""2019-11-11 15:00:30 [http-nio-8080-exec-1] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    3727300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    69100 nanoseconds spent preparing 1 JDBC statements;
+    1147500 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] INFO  api.graph.ql.logging.LogAdvice -  [["{\n\tstock(id: 1){\n\tname\n\topen\n\t}\n}"] ] arguments
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] INFO  api.graph.ql.logging.LogAdvice -  [[] ] arguments
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] INFO  api.graph.ql.logging.LogAdvice - Response#{}
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] INFO  api.graph.ql.logging.LogAdvice -  [findById ] method invoked
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] INFO  api.graph.ql.logging.LogAdvice -  [[1] ] arguments
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] INFO  api.graph.ql.logging.LogAdvice -  [class com.sun.proxy.$Proxy127 ] class invoked 
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] INFO  api.graph.ql.logging.LogAdvice -  [findById ] method invoked
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] INFO  api.graph.ql.logging.LogAdvice - Response#{"present":true}
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] INFO  a.graph.ql.logging.ExecutionTracker - Method get of class api.graph.ql.service.datafetcher.StockDataFetcher taken taken : [10] ms
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] INFO  api.graph.ql.logging.LogAdvice - Response#{"headers":{},"body":{"errors":[],"data":{"stock":{"name":"HdfcBank","open":1200}},"extensions":null},"statusCode":"OK","statusCodeValue":200}
+""2019-11-11 15:00:30 [http-nio-8080-exec-10] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    464800 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    52300 nanoseconds spent preparing 1 JDBC statements;
+    1054800 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""2019-11-11 15:00:33 [http-nio-8080-exec-4] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:33 [http-nio-8080-exec-4] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:33 [http-nio-8080-exec-4] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:33 [http-nio-8080-exec-4] INFO  api.graph.ql.logging.LogAdvice -  [["{\n\tallStocks {\n\t\tid\n\t\tname\n\t}\n}"] ] arguments
+""2019-11-11 15:00:33 [http-nio-8080-exec-4] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:33 [http-nio-8080-exec-4] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:33 [http-nio-8080-exec-4] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:33 [http-nio-8080-exec-4] INFO  api.graph.ql.logging.LogAdvice -  [[] ] arguments
+""2019-11-11 15:00:33 [http-nio-8080-exec-4] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:33 [http-nio-8080-exec-4] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:33 [http-nio-8080-exec-4] INFO  api.graph.ql.logging.LogAdvice - Response#{}
+""2019-11-11 15:00:33 [http-nio-8080-exec-4] INFO  a.graph.ql.logging.ExecutionTracker - Method get of class api.graph.ql.service.datafetcher.AllStockDataFetcher taken taken : [16] ms
+""2019-11-11 15:00:33 [http-nio-8080-exec-4] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:33 [http-nio-8080-exec-4] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:33 [http-nio-8080-exec-4] INFO  api.graph.ql.logging.LogAdvice - Response#{"headers":{},"body":{"errors":[],"data":{"allStocks":[{"id":1,"name":"HdfcBank"},{"id":2,"name":"Sbin"},{"id":3,"name":"Hdfc"},{"id":4,"name":"Nifty"},{"id":5,"name":"Itc"},{"id":6,"name":"Lt"},{"id":7,"name":"ioc"}]},"extensions":null},"statusCode":"OK","statusCodeValue":200}
+""2019-11-11 15:00:33 [http-nio-8080-exec-4] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    1936400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    478300 nanoseconds spent preparing 1 JDBC statements;
+    1848800 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    3700 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""2019-11-11 15:00:33 [http-nio-8080-exec-2] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:33 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:33 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:33 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice -  [["{\n\tallStocks {\n\t\tid\n\t\tname\n\t}\n}"] ] arguments
+""2019-11-11 15:00:33 [http-nio-8080-exec-2] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:33 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:33 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:33 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice -  [[] ] arguments
+""2019-11-11 15:00:33 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:33 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:33 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice - Response#{}
+""2019-11-11 15:00:33 [http-nio-8080-exec-2] INFO  a.graph.ql.logging.ExecutionTracker - Method get of class api.graph.ql.service.datafetcher.AllStockDataFetcher taken taken : [14] ms
+""2019-11-11 15:00:33 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:33 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:33 [http-nio-8080-exec-2] INFO  api.graph.ql.logging.LogAdvice - Response#{"headers":{},"body":{"errors":[],"data":{"allStocks":[{"id":1,"name":"HdfcBank"},{"id":2,"name":"Sbin"},{"id":3,"name":"Hdfc"},{"id":4,"name":"Nifty"},{"id":5,"name":"Itc"},{"id":6,"name":"Lt"},{"id":7,"name":"ioc"}]},"extensions":null},"statusCode":"OK","statusCodeValue":200}
+""2019-11-11 15:00:33 [http-nio-8080-exec-2] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    3424400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    97800 nanoseconds spent preparing 1 JDBC statements;
+    2055200 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    3600 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""2019-11-11 15:00:34 [http-nio-8080-exec-7] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:34 [http-nio-8080-exec-7] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:34 [http-nio-8080-exec-7] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:34 [http-nio-8080-exec-7] INFO  api.graph.ql.logging.LogAdvice -  [["{\n\tallStocks {\n\t\tid\n\t\tname\n\t}\n}"] ] arguments
+""2019-11-11 15:00:34 [http-nio-8080-exec-7] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:34 [http-nio-8080-exec-7] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:34 [http-nio-8080-exec-7] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:34 [http-nio-8080-exec-7] INFO  api.graph.ql.logging.LogAdvice -  [[] ] arguments
+""2019-11-11 15:00:34 [http-nio-8080-exec-7] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:34 [http-nio-8080-exec-7] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:34 [http-nio-8080-exec-7] INFO  api.graph.ql.logging.LogAdvice - Response#{}
+""2019-11-11 15:00:34 [http-nio-8080-exec-7] INFO  a.graph.ql.logging.ExecutionTracker - Method get of class api.graph.ql.service.datafetcher.AllStockDataFetcher taken taken : [19] ms
+""2019-11-11 15:00:34 [http-nio-8080-exec-7] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:34 [http-nio-8080-exec-7] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:34 [http-nio-8080-exec-7] INFO  api.graph.ql.logging.LogAdvice - Response#{"headers":{},"body":{"errors":[],"data":{"allStocks":[{"id":1,"name":"HdfcBank"},{"id":2,"name":"Sbin"},{"id":3,"name":"Hdfc"},{"id":4,"name":"Nifty"},{"id":5,"name":"Itc"},{"id":6,"name":"Lt"},{"id":7,"name":"ioc"}]},"extensions":null},"statusCode":"OK","statusCodeValue":200}
+""2019-11-11 15:00:34 [http-nio-8080-exec-7] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    7040700 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    45500 nanoseconds spent preparing 1 JDBC statements;
+    1961500 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    3900 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""2019-11-11 15:00:34 [http-nio-8080-exec-6] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:34 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:34 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:34 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [["{\n\tallStocks {\n\t\tid\n\t\tname\n\t}\n}"] ] arguments
+""2019-11-11 15:00:34 [http-nio-8080-exec-6] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:34 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:34 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:34 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [[] ] arguments
+""2019-11-11 15:00:34 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:34 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:34 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice - Response#{}
+""2019-11-11 15:00:34 [http-nio-8080-exec-6] INFO  a.graph.ql.logging.ExecutionTracker - Method get of class api.graph.ql.service.datafetcher.AllStockDataFetcher taken taken : [16] ms
+""2019-11-11 15:00:34 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:34 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:34 [http-nio-8080-exec-6] INFO  api.graph.ql.logging.LogAdvice - Response#{"headers":{},"body":{"errors":[],"data":{"allStocks":[{"id":1,"name":"HdfcBank"},{"id":2,"name":"Sbin"},{"id":3,"name":"Hdfc"},{"id":4,"name":"Nifty"},{"id":5,"name":"Itc"},{"id":6,"name":"Lt"},{"id":7,"name":"ioc"}]},"extensions":null},"statusCode":"OK","statusCodeValue":200}
+""2019-11-11 15:00:34 [http-nio-8080-exec-6] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    1986600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    52100 nanoseconds spent preparing 1 JDBC statements;
+    2275200 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    4800 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""2019-11-11 15:00:35 [http-nio-8080-exec-8] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:35 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:35 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:35 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [["{\n\tallStocks {\n\t\tid\n\t\tname\n\t}\n}"] ] arguments
+""2019-11-11 15:00:35 [http-nio-8080-exec-8] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:35 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:35 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:35 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [[] ] arguments
+""2019-11-11 15:00:35 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:35 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:35 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice - Response#{}
+""2019-11-11 15:00:35 [http-nio-8080-exec-8] INFO  a.graph.ql.logging.ExecutionTracker - Method get of class api.graph.ql.service.datafetcher.AllStockDataFetcher taken taken : [15] ms
+""2019-11-11 15:00:35 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:35 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:35 [http-nio-8080-exec-8] INFO  api.graph.ql.logging.LogAdvice - Response#{"headers":{},"body":{"errors":[],"data":{"allStocks":[{"id":1,"name":"HdfcBank"},{"id":2,"name":"Sbin"},{"id":3,"name":"Hdfc"},{"id":4,"name":"Nifty"},{"id":5,"name":"Itc"},{"id":6,"name":"Lt"},{"id":7,"name":"ioc"}]},"extensions":null},"statusCode":"OK","statusCodeValue":200}
+""2019-11-11 15:00:35 [http-nio-8080-exec-8] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    3185700 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    48900 nanoseconds spent preparing 1 JDBC statements;
+    3975000 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    3300 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""2019-11-11 15:00:36 [http-nio-8080-exec-9] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:36 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:36 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:36 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [["{\n\tallStocks {\n\t\tid\n\t\tname\n\t}\n}"] ] arguments
+""2019-11-11 15:00:36 [http-nio-8080-exec-9] DEBUG api.graph.ql.logging.LogAdvice - ->>> Pointcut execution <<<-
+""2019-11-11 15:00:36 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:36 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:36 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [[] ] arguments
+""2019-11-11 15:00:36 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.service.GraphQLService ] class invoked 
+""2019-11-11 15:00:36 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [getGraphQL ] method invoked
+""2019-11-11 15:00:36 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice - Response#{}
+""2019-11-11 15:00:36 [http-nio-8080-exec-9] INFO  a.graph.ql.logging.ExecutionTracker - Method get of class api.graph.ql.service.datafetcher.AllStockDataFetcher taken taken : [11] ms
+""2019-11-11 15:00:36 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [class api.graph.ql.resource.Graph ] class invoked 
+""2019-11-11 15:00:36 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice -  [getStocks ] method invoked
+""2019-11-11 15:00:36 [http-nio-8080-exec-9] INFO  api.graph.ql.logging.LogAdvice - Response#{"headers":{},"body":{"errors":[],"data":{"allStocks":[{"id":1,"name":"HdfcBank"},{"id":2,"name":"Sbin"},{"id":3,"name":"Hdfc"},{"id":4,"name":"Nifty"},{"id":5,"name":"Itc"},{"id":6,"name":"Lt"},{"id":7,"name":"ioc"}]},"extensions":null},"statusCode":"OK","statusCodeValue":200}
+""2019-11-11 15:00:36 [http-nio-8080-exec-9] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    1961900 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    118300 nanoseconds spent preparing 1 JDBC statements;
+    1669400 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    5400 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
 "
