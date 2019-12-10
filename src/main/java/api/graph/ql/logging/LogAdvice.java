@@ -1,9 +1,12 @@
 package api.graph.ql.logging;
 
 import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -17,11 +20,23 @@ import com.google.gson.Gson;
 public class LogAdvice {
 	private static Logger logger=LoggerFactory.getLogger(LogAdvice.class);
 	
+	
+	
+	@Before(value="execution(* api.graph.ql.service.*.*(..) )")
+	public void before() {
+		logger.warn("before aspect calling");
+	}
+	
+	@After(value="execution(* api.graph.ql.service.*.*(..) )")
+	public void after() {
+		logger.warn("After aspect calling");
+	}
+	
 	@Pointcut(value ="execution(* api.graph.ql.*.*.*(..) )")
 	public  void pointcut() {
 	} 
 	
-	@Around(value = "pointcut()")
+	@Around(value = "pointcut()") //@Around(value = "execution(* api.graph.ql.*.*.*(..) )")
 	public Object globalLogger(ProceedingJoinPoint proceedingJoinPoint ) {
 		logger.debug("->>> Pointcut execution <<<-");
 		String methodName=proceedingJoinPoint.getSignature().getName();//get method name
